@@ -1,0 +1,63 @@
+.GameWindow {
+  font-family: "Roboto", sans-serif;
+  color: #f3efeb;
+  background-color: #1d1932a1;
+  border-radius: 1rem;
+
+  aspect-ratio: 3/4;
+  width: 20rem;
+
+  padding: 1rem;
+  margin: 0 2rem;
+
+  .Game {
+    padding: 1rem;
+
+    display: flexbox;
+
+    .Title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding-top: 2rem;
+
+      .Game-Title {
+        margin: 0;
+        font-size: 2rem;
+      }
+      .Price {
+        height: 3vh;
+
+        background-color: #41a60e;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    .Description {
+      font-size: 0.9rem;
+      margin: 0;
+      padding-top: 2rem;
+      color: #969491;
+
+      overflow: hidden;
+      max-height: 9rem;
+    }
+
+    .IMG {
+      padding-top: 1rem;
+      aspect-ratio: 16/9;
+      width: 100%;
+      border-radius: 2rem;
+    }
+  }
+}

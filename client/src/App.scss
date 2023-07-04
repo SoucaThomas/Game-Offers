@@ -1,0 +1,27 @@
+$color200: #f3efeb;
+$color400: #9d4a58;
+$color600: #be5d78;
+$color800: #99374e;
+$color1000: #2b264b;
+body {
+  background-color: $color1000;
+}
+
+.Carousel-Content {
+  display: flex;
+}
+
+.App {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Content {
+  width: 70%;
+
+  h1 {
+    color: $color200;
+  }
+}

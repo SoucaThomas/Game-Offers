@@ -1,7 +1,7 @@
-import './App.scss';
-import './GameWindow.scss'
-import { GameWindow} from "./GameWindow";
-import { freeGameData } from './testdata';
+import "./App.scss";
+import "./GameWindow.scss";
+import { GameWindow } from "./GameWindow";
+import { freeGameData } from "./testdata";
 
 function App() {
   return (
